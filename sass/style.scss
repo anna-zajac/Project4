@@ -1,0 +1,27 @@
+/*Navigation*/
+
+.navigation {
+    background-image: url(https://images.pexels.com/photos/159368/laptop-iphone-coffee-notebook-159368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    padding: 12px 0;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 36px;
+    position: relative;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: $color-light;
+}
+
+a:hover {
+    color: #B33771;
+}
