@@ -1,2 +1,28 @@
+/*Variables*/
+/*Navigation*/
+.navigation {
+  position: absolute;
+  padding: 12px 0;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 36px;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #B33771;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFBO0FBTUEsYUFBQTtBQUVBO0VBQ0ksa0JBQWlCO0VBQ2pCLGVBQWU7QUNMbkI7O0FEUUE7RUFDSSxTQUFTO0VBQ1QsVUFBVTtFQUNWLHFCQUFxQjtBQ0x6Qjs7QURRQTtFQUNJLHFCQUFxQjtFQUNyQixrQkFBa0I7RUFDbEIsa0JBQWtCO0FDTHRCOztBRFFBO0VBQ0kscUJBQXFCO0VBQ3JCLGNBQWM7QUNMbEI7O0FEUUE7RUFDSSxjQUFjO0FDTGxCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
