@@ -144,8 +144,6 @@ a:hover {
 
 /*Portfolio*/
 
-
-
 .portfolio {
     background-color: #eff2f5;
 }
@@ -153,7 +151,7 @@ a:hover {
 .portfolio .card-title {
     font-size: 20px;
     font-family: $font-header;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     margin-top: 0;
 }
 
@@ -166,6 +164,7 @@ a:hover {
     margin-top: 0;
     font-style: oblique;
     color: $color-subtitle;
+    padding-bottom: 10px;
 }
 
 .card-image img {
@@ -173,6 +172,7 @@ a:hover {
     height: 300px;
     object-fit: cover;
 }
+
 
 
 
