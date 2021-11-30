@@ -1,8 +1,37 @@
 /*Variables*/
+/*Global*/
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  font-family: "Inconsolata", monospace;
+  line-height: 1.7;
+}
+
+section {
+  padding: 96px 0;
+}
+
+.section-title {
+  font-size: 48px;
+  margin-bottom: 0;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.section-subtitle {
+  font-size: 15px;
+  font-style: oblique;
+  margin-top: 0;
+  margin-bottom: 60px;
+  color: #84817a;
+}
+
 /*Navigation*/
 .navigation {
-  position: absolute;
   padding: 12px 0;
+  position: absolute;
 }
 
 .navigation ul {
@@ -25,4 +54,68 @@
 a:hover {
   color: #B33771;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFBO0FBTUEsYUFBQTtBQUVBO0VBQ0ksa0JBQWlCO0VBQ2pCLGVBQWU7QUNMbkI7O0FEUUE7RUFDSSxTQUFTO0VBQ1QsVUFBVTtFQUNWLHFCQUFxQjtBQ0x6Qjs7QURRQTtFQUNJLHFCQUFxQjtFQUNyQixrQkFBa0I7RUFDbEIsa0JBQWtCO0FDTHRCOztBRFFBO0VBQ0kscUJBQXFCO0VBQ3JCLGNBQWM7QUNMbEI7O0FEUUE7RUFDSSxjQUFjO0FDTGxCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+
+/*Splash*/
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/159368/laptop-iphone-coffee-notebook-159368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center center;
+  background-size: cover;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splash-title {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "Signika Negative", sans-serif;
+  margin: 48px 0 20px 0;
+  position: relative;
+}
+
+.splash-subtitle {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 48px 0 0 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #EAB543;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Signika Negative", sans-serif;
+  text-align: center;
+  cursor: pointer;
+  padding: 16px;
+}
+
+/*Services*/
+.services i {
+  margin: 15px;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: #EAB543;
+  border-radius: 50%;
+}
+
+.services .service-title {
+  font-size: 20px;
+  font-family: "Signika Negative", sans-serif;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFBO0FBU0EsU0FBQTtBQUVBO0VBQ0ksU0FBUztFQUNULGtCQUFrQjtFQUNsQixzQkFBc0I7RUFDdEIsY0FBYztFQUNkLGVBQWdCO0VBQ2hCLHFDQVpnQztFQWFoQyxnQkFDSjtBQ1RBOztBRFdBO0VBQ0ksZUFBZTtBQ1JuQjs7QURXQTtFQUNJLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsMkNBdEJ3QztBQ2M1Qzs7QURXQTtFQUNJLGVBQWU7RUFDZixtQkFBbUI7RUFDbkIsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQixjQTdCb0I7QUNxQnhCOztBRFlBLGFBQUE7QUFFQTtFQUNJLGVBQWU7RUFDZixrQkFBa0I7QUNWdEI7O0FEYUE7RUFDSSxTQUFTO0VBQ1QsVUFBVTtFQUNWLHFCQUFxQjtBQ1Z6Qjs7QURhQTtFQUNJLHFCQUFxQjtFQUNyQixrQkFBa0I7RUFDbEIsa0JBQWtCO0FDVnRCOztBRGFBO0VBQ0kscUJBQXFCO0VBQ3JCLGNBQWM7QUNWbEI7O0FEYUE7RUFDSSxjQUFjO0FDVmxCOztBRGFBLFNBQUE7QUFFQTtFQUNJLGFBQWE7RUFDYixrQkFBa0I7RUFDbEIsc0pBQXNKO0VBQ3RKLGtDQUFrQztFQUNsQyxzQkFBc0I7QUNYMUI7O0FEY0E7RUFDSSxrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFFBQVE7RUFDUixTQUFTO0VBQ1QsZ0NBQStCO0FDWG5DOztBRGNBO0VBQ0ksY0FwRmlCO0VBcUZqQixlQUFlO0VBQ2YsMkNBbkZ3QztFQW9GeEMscUJBQXFCO0VBQ3JCLGtCQUFrQjtBQ1h0Qjs7QURjQTtFQUNJLGNBNUZpQjtFQTZGakIsZUFBZTtFQUNmLGtCQUFrQjtBQ1h0Qjs7QURjQTtFQUNJLHFCQUFxQjtFQUNyQix5QkFyR2U7RUFzR2YsY0FwR2lCO0VBcUdqQixxQkFBcUI7RUFDckIsa0JBQWtCO0VBQ2xCLGVBQWU7RUFDZixtQkFBbUI7RUFDbkIsaUJBQWlCO0VBQ2pCLDJDQXZHd0M7RUF3R3hDLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2YsYUFBYTtBQ1hqQjs7QURjQSxXQUFBO0FBRUE7RUFDSSxZQUFZO0VBQ1osZUFBZTtFQUNmLFdBQVc7RUFDWCxZQUFZO0VBQ1osaUJBQWlCO0VBQ2pCLGNBeEhpQjtFQXlIakIseUJBM0hlO0VBNEhmLGtCQUFrQjtBQ1p0Qjs7QURpQkE7RUFDSSxlQUFlO0VBQ2YsMkNBOUh3QztFQStIeEMsbUJBQW1CO0FDZHZCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

@@ -1,9 +1,13 @@
 /*Variables*/
+$color-one: #EAB543;
 
 $color-light: #ffffff;
 $color-dark: #2C3A47;
 $font-text: 'Inconsolata', monospace;
 $font-header: 'Signika Negative', sans-serif;
+$color-subtitle: #84817a;
+
+/*Global*/
 
 body {
     margin: 0;
@@ -19,12 +23,27 @@ section {
     padding: 96px 0;   
 }
 
+.section-title {
+    font-size: 48px;
+    margin-bottom: 0;
+    font-family: $font-header;
+}
+
+.section-subtitle {
+    font-size: 15px;
+    font-style: oblique;
+    margin-top: 0;
+    margin-bottom: 60px;
+    color: $color-subtitle;
+
+}
+
 /*Navigation*/
 
 .navigation {
-    position:absolute;
     padding: 12px 0;
-}
+    position: absolute;
+    }
 
 .navigation ul {
     margin: 0;
@@ -65,33 +84,56 @@ a:hover {
     transform: translate(-50%,-50%);
 }
 
-.page-title {
+.splash-title {
     color: $color-light;
     font-size: 60px;
     font-family: $font-header;
-    margin: 48px 0 0 0;
+    margin: 48px 0 20px 0;
     position: relative;
 }
 
-.page-subtitle {
+.splash-subtitle {
     color: $color-light;
     font-size: 25px;
     margin: 48px 0 0 0;
 }
-.section-title {
-    font-size:  48px;
-    margin: 0 0 72px 0;
-}
 
 .btn {
     display: inline-block;
-    background-color: #EAB543;
+    background-color: $color-one;
     color: $color-light;
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
-    font-family: $font-text;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: $font-header;
     text-align: center;
     cursor: pointer;
     padding: 16px;
 }
+
+/*Services*/
+
+.services i {
+    margin: 15px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: $color-light;
+    background-color: $color-one;
+    border-radius: 50%;
+}
+
+
+
+.services .service-title {
+    font-size: 20px;
+    font-family: $font-header;
+    margin-bottom: 10px;
+}
+
+
+
+
