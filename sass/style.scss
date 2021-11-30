@@ -1,6 +1,9 @@
 /*Variables*/
+
 $color-light: #ffffff;
 $color-dark: #2C3A47;
+$font-text: 'Inconsolata', monospace;
+$font-header: 'Signika Negative', sans-serif;
 
 body {
     margin: 0;
@@ -10,6 +13,10 @@ body {
     font-size:  16px;
     font-family: $font-text;
     line-height: 1.7  
+}
+
+section {
+    padding: 96px 0;   
 }
 
 /*Navigation*/
@@ -74,4 +81,17 @@ a:hover {
 .section-title {
     font-size:  48px;
     margin: 0 0 72px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #EAB543;
+    color: $color-light;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: $font-text;
+    text-align: center;
+    cursor: pointer;
+    padding: 16px;
 }
