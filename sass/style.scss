@@ -3,8 +3,9 @@ $color-one: #EAB543;
 
 $color-light: #ffffff;
 $color-dark: #2C3A47;
-$font-text: 'Inconsolata', monospace;
+$font-text: 'Source Sans Pro', sans-serif;
 $font-header: 'Signika Negative', sans-serif;
+$font-special: 'Kaushan Script', cursive;
 $color-subtitle: #84817a;
 
 /*Global*/
@@ -42,7 +43,7 @@ section {
 
 .navigation {
     padding: 12px 0;
-    position: absolute;
+    background-color: black;
     }
 
 .navigation ul {
@@ -54,16 +55,24 @@ section {
 .navigation li {
     display: inline-block;
     margin-right: 36px;
-    position: relative;
 }
 
 .navigation a {
     text-decoration: none;
     color: #ffffff;
+    letter-spacing: 3px;
 }
 
 a:hover {
     color: #B33771;
+}
+
+.golden {
+    color: $color-one;
+    padding-right: 260px;
+    font-size: 20px;
+    font-family: $font-special;
+    letter-spacing: 2px;
 }
 
 /*Splash*/
@@ -94,8 +103,9 @@ a:hover {
 
 .splash-subtitle {
     color: $color-light;
-    font-size: 25px;
+    font-size: 30px;
     margin: 48px 0 0 0;
+    letter-spacing: 2px;
 }
 
 .btn {
@@ -126,14 +136,43 @@ a:hover {
     border-radius: 50%;
 }
 
-
-
 .services .service-title {
     font-size: 20px;
     font-family: $font-header;
     margin-bottom: 10px;
 }
 
+/*Portfolio*/
+
+
+
+.portfolio {
+    background-color: #eff2f5;
+}
+
+.portfolio .card-title {
+    font-size: 20px;
+    font-family: $font-header;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.portfolio .card-body {
+    background-color: $color-light;
+    margin-bottom: 6px;
+}
+
+.portfolio .card-body p{
+    margin-top: 0;
+    font-style: oblique;
+    color: $color-subtitle;
+}
+
+.card-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 
 
 
